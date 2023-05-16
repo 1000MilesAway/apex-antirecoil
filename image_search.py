@@ -41,6 +41,7 @@ def get_screen_area_as_image(area=(0, 0, GetSystemMetrics(0), GetSystemMetrics(1
     img_rgb = np.array(img_rgb)  # convert to cv2 readable format (and to BGR)
     img_rgb = img_rgb[:, :, ::-1].copy()  # convert back to RGB
 
+    # print("sssss")
     # cv2.imwrite("weapon.png", img_rgb)
     # time.sleep(10)
 
